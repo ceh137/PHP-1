@@ -1,0 +1,47 @@
+.header{
+   width: 100%; 
+   height: 200px;
+   text-align: center;
+}
+.content   {
+    margin: 10px auto;
+    display: flex;
+    width: 900px;
+    flex-direction: column;
+}
+.footer {
+    height: 150px;
+    text-align: center;
+}
+
+a {
+
+    width: max-content;
+    display: block;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+.photos  img {
+    width: 250px;
+    margin: 30px auto;  
+}
+.photos {
+    display: flex;
+    width: 900px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-self: center;
+}
+.BigPhoto {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.photo {
+    width: 250px;
+
+}
